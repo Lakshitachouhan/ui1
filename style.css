@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maincontainer{
+    width: 100%;
+    background: rgb(29,24,25);
+background: linear-gradient(149deg, rgba(29,24,25,1) 65%, rgba(180,25,52,1) 100%, rgba(133,109,192,0.9276960784313726) 100%, rgba(136,108,189,1) 100%, rgba(253,73,29,1) 100%);
+
+}
+.navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 50px;
+    padding-block: 30px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.navbar button{
+    border: none;
+    background-color:transparent;
+    color: white;
+    /* padding: 20px; */
+}
+#sign{
+    margin-left: 10px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color:transparent;
+    border: 1px solid grey;
+}
+.section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 50px;
+}
+.leftsection{
+    color: white;
+}
+.leftsection span{
+    display: flex;
+}
+.leftsection p{
+    padding-bottom: 20px;
+}
+.leftsection h1{
+    font-weight: 800;
+    font-size: 70px;
+}
+.leftsection button{
+    width: 220px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid grey;
+    padding-inline: 30px;
+    padding-block: 10px;
+    margin-top: 40px;
+}
+.leftsection button i{
+   padding-left: 50px;
+}
+.rightsection{
+    padding-right: 100px;
+}
+.visit{
+    color: white;
+    display: flex;
+    /* justify-content: space-between; */
+    padding-inline: 30px;
+    margin-top: 50px;
+}
+.visit h3{
+    font-size: 30px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+.card{
+    box-shadow: 1px 1px 1px 1px;
+    padding-inline: 30px;
+    padding-block: 20px;
+}
+.card p{
+    font-size: 10px;
+    color: grey;
+    padding-bottom: 18px;
+    text-align: center;
+}
+.card h4{
+    padding-left: 40px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+}
+.card2
+{
+    box-shadow: 1px 1px 1px 1px;
+    padding-right: 120px;
+    padding-left: 20px;
+    padding-block: 20px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.card2 p{
+    font-size: 14px;
+    width: 100%;
+    /* display: flex; */
+    background-color: #E79248;
+    /* color: grey; */
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 37px;
+}
+.card2 h4{
+    /* padding-left: 40px; */
+    font-size: 27px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+}
+
+.card3{
+    box-shadow: 1px 1px 1px 1px;
+    padding-inline: 40px;
+    padding-block: 20px  
+}
+.card3 p{
+    font-size: 14px;
+    width: 50%;
+    /* display: flex; */
+    background-color: #0f73b6;
+    /* color: grey; */
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 37px;
+}
+.card3 h4{
+    font-size: 27px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+}
+.card img{
+    width: 200px;
+}
+@media(max-width:768px){
+    .maincontainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .leftsection{
+        width: 100%;
+        height: auto;
+
+    }
+    .visit{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .visit h3{
+        padding-bottom:20px ;
+    }
+    .cards{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card{
+        width: 70%;
+        border: 1px solid rgb(240, 237, 237);
+    }
+    .card2{
+        width: 70%;
+        border: 1px solid rgb(241, 230, 230);
+    }
+    .card3{
+        width: 70%;
+        border: 1px solid rgb(247, 240, 240);
+    }
+}
